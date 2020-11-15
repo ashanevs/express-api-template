@@ -26,6 +26,12 @@
     "array-bracket-spacing": ["warn", "always"],
     "import/prefer-default-export": [0],
     "implicit-arrow-linebreak": "off",
-    "function-paren-newline": "off"
+    "function-paren-newline": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ]
   }
 }
